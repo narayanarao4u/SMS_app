@@ -50,6 +50,24 @@ app.use(function(req, res, next){
 })
 
 
+//#region connect to mongodb
+
+const mongoose = require('mongoose');
+mongoose.Promise = global.Promise;
+const connStr = "mongodb://localhost:27017/bsnlSMS";
+// Connecting to the database
+mongoose.connect(connStr, {
+  // useNewUrlParser: true,
+  // useUnifiedTopology: true,
+  // useFindAndModify: true
+}).then(() => {
+  console.log("Successfully connected to the database");
+}).catch(err => {
+  console.log('Could not connect to the database. Exiting now...', err);
+  process.exit();
+});
+
+//#region connect to mongodb
 
 
 app.get('/',(req,res)=>{

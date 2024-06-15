@@ -4,6 +4,11 @@ const router = express.Router();
 const axios = require("axios");
 const templateIds = require("./../tempaleID.json");
 
+const CRUD = require('../controllers/common.controller');
+let crud = new CRUD();
+const Document = require('../models/tempmlateIDs.model').templateID
+
+
 router.get("/", (req, res) => {
   res.json({ msg: "hello..." });
 });
@@ -42,9 +47,11 @@ router.get("/smsbalance", async (req, res) => {
   }
 });
 
-router.get("/templateIds", (req, res) => {
+/* router.get("/templateIds", (req, res) => {
   res.json(templateIds);
-});
+}); */
+router.route('/templateIds')
+  .get(crud.index.bind(Document))
 
 router.post("/Get_Content_Template_Details", async (req, res) => {
   try {

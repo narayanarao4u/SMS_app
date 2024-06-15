@@ -24,7 +24,7 @@ function SMSTemplates() {
   useEffect(() => {
     if (data) {
       setDispData(
-        data.filter((item) =>
+        data.data.filter((item) =>
           item.TEMPLATE_NAME.toLowerCase().includes(searchText.toLowerCase())
         )
       );
