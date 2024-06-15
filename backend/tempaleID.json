@@ -1,0 +1,1090 @@
+[
+  {
+    "TEMPLATE_NAME": "BSNL OTP",
+    "TEMPLATE_ID": "1407171629376818013"
+  },
+  {
+    "TEMPLATE_NAME": "IPMS controlling officers",
+    "TEMPLATE_ID": "1407167489267750304"
+  },
+  {
+    "TEMPLATE_NAME": "Rever 31st Mar24 (English)",
+    "TEMPLATE_ID": "1407171109057542656"
+  },
+  {
+    "TEMPLATE_NAME": "SKLM KYC SMS",
+    "TEMPLATE_ID": "1407171714800446617"
+  },
+  {
+    "TEMPLATE_NAME": "APAR 23-24 Last date",
+    "TEMPLATE_ID": "1407171515206950071"
+  },
+  {
+    "TEMPLATE_NAME": "CMTS Repeat Faults",
+    "TEMPLATE_ID": "1407171637669456652"
+  },
+  {
+    "TEMPLATE_NAME": "Active customers_Bal GRT",
+    "TEMPLATE_ID": "1407163851279128551"
+  },
+  {
+    "TEMPLATE_NAME": "Active customers_Bal LT1",
+    "TEMPLATE_ID": "1407163851272051496"
+  },
+  {
+    "TEMPLATE_NAME": "Fraud message related",
+    "TEMPLATE_ID": "1407164032812313524"
+  },
+  {
+    "TEMPLATE_NAME": "GP1 message",
+    "TEMPLATE_ID": "1407164068758404673"
+  },
+  {
+    "TEMPLATE_NAME": "BAL less than PV",
+    "TEMPLATE_ID": "1407164068748772436"
+  },
+  {
+    "TEMPLATE_NAME": "GP1 message 2399",
+    "TEMPLATE_ID": "1407164076193103322"
+  },
+  {
+    "TEMPLATE_NAME": "BAL less than PV 2399",
+    "TEMPLATE_ID": "1407164076202682395"
+  },
+  {
+    "TEMPLATE_NAME": "BAL LT 90dys 2399",
+    "TEMPLATE_ID": "1407164118824911075"
+  },
+  {
+    "TEMPLATE_NAME": "GP1 90days 2399",
+    "TEMPLATE_ID": "1407164118818350722"
+  },
+  {
+    "TEMPLATE_NAME": "Mahanandi temple services",
+    "TEMPLATE_ID": "1407164144974957447"
+  },
+  {
+    "TEMPLATE_NAME": "Fraud message alert",
+    "TEMPLATE_ID": "1407164215400099804"
+  },
+  {
+    "TEMPLATE_NAME": "Active updated 170122",
+    "TEMPLATE_ID": "1407164240460378012"
+  },
+  {
+    "TEMPLATE_NAME": "GP1 updated 170122",
+    "TEMPLATE_ID": "1407164240451151135"
+  },
+  {
+    "TEMPLATE_NAME": "plan 799",
+    "TEMPLATE_ID": "1407164309259769478"
+  },
+  {
+    "TEMPLATE_NAME": "plan 725",
+    "TEMPLATE_ID": "1407164309256368412"
+  },
+  {
+    "TEMPLATE_NAME": "plan 325",
+    "TEMPLATE_ID": "1407164309242530972"
+  },
+  {
+    "TEMPLATE_NAME": "plan 225",
+    "TEMPLATE_ID": "1407164309237219020"
+  },
+  {
+    "TEMPLATE_NAME": "plan 149",
+    "TEMPLATE_ID": "1407164309222853950"
+  },
+  {
+    "TEMPLATE_NAME": "FTTH promotion",
+    "TEMPLATE_ID": "1407164336255748766"
+  },
+  {
+    "TEMPLATE_NAME": "closed Post Paid add-on plans",
+    "TEMPLATE_ID": "1407164361667252404"
+  },
+  {
+    "TEMPLATE_NAME": "2399 60days extra validity(active)",
+    "TEMPLATE_ID": "1407164362119500306"
+  },
+  {
+    "TEMPLATE_NAME": "GP1 updated 2399",
+    "TEMPLATE_ID": "1407164362298431123"
+  },
+  {
+    "TEMPLATE_NAME": "GP1 updated 310122",
+    "TEMPLATE_ID": "1407164362284610336"
+  },
+  {
+    "TEMPLATE_NAME": "GP1_2999",
+    "TEMPLATE_ID": "1407164378674519227"
+  },
+  {
+    "TEMPLATE_NAME": "GP1_2399",
+    "TEMPLATE_ID": "1407164378669628855"
+  },
+  {
+    "TEMPLATE_NAME": "BALLT_2999",
+    "TEMPLATE_ID": "1407164378658506324"
+  },
+  {
+    "TEMPLATE_NAME": "BALLT_2399",
+    "TEMPLATE_ID": "1407164378648146563"
+  },
+  {
+    "TEMPLATE_NAME": "Arasavalli SUN temple",
+    "TEMPLATE_ID": "1407164620302698806"
+  },
+  {
+    "TEMPLATE_NAME": "Bharat AIR Fibre",
+    "TEMPLATE_ID": "1407164750164704679"
+  },
+  {
+    "TEMPLATE_NAME": "GP12999",
+    "TEMPLATE_ID": "1407164880208185529"
+  },
+  {
+    "TEMPLATE_NAME": "GP12399",
+    "TEMPLATE_ID": "1407164880201982266"
+  },
+  {
+    "TEMPLATE_NAME": "BALLT2999",
+    "TEMPLATE_ID": "1407164880196863037"
+  },
+  {
+    "TEMPLATE_NAME": "BALLT2399",
+    "TEMPLATE_ID": "1407164880193050078"
+  },
+  {
+    "TEMPLATE_NAME": "BSNL Super annuation Pension English",
+    "TEMPLATE_ID": "1407164974924502396"
+  },
+  {
+    "TEMPLATE_NAME": "BSNL Super annuation Pension Telugu",
+    "TEMPLATE_ID": "1407164974917226575"
+  },
+  {
+    "TEMPLATE_NAME": "Rajampet MP telugu msg",
+    "TEMPLATE_ID": "1407165052164236642"
+  },
+  {
+    "TEMPLATE_NAME": "Rajampet MP message",
+    "TEMPLATE_ID": "1407165052158350290"
+  },
+  {
+    "TEMPLATE_NAME": "Telugu msg rajampet",
+    "TEMPLATE_ID": "1407165069308458707"
+  },
+  {
+    "TEMPLATE_NAME": "GP1 2999",
+    "TEMPLATE_ID": "1407165173288498260"
+  },
+  {
+    "TEMPLATE_NAME": "GP1 2399",
+    "TEMPLATE_ID": "1407165173295296694"
+  },
+  {
+    "TEMPLATE_NAME": "BALLT 2999",
+    "TEMPLATE_ID": "1407165173305037475"
+  },
+  {
+    "TEMPLATE_NAME": "BALLT 2399",
+    "TEMPLATE_ID": "1407165173313324395"
+  },
+  {
+    "TEMPLATE_NAME": "BAL GRT",
+    "TEMPLATE_ID": "1407165173318360049"
+  },
+  {
+    "TEMPLATE_NAME": "Fraud SMS alert",
+    "TEMPLATE_ID": "1407165173326620974"
+  },
+  {
+    "TEMPLATE_NAME": "BharatAIR_KNL",
+    "TEMPLATE_ID": "1407165173358261279"
+  },
+  {
+    "TEMPLATE_NAME": "Plan-106(GP2)",
+    "TEMPLATE_ID": "1407165173332945926"
+  },
+  {
+    "TEMPLATE_NAME": "Knl-Engg",
+    "TEMPLATE_ID": "1407165242773370677"
+  },
+  {
+    "TEMPLATE_NAME": "stv485",
+    "TEMPLATE_ID": "1407165356144139407"
+  },
+  {
+    "TEMPLATE_NAME": "STV319",
+    "TEMPLATE_ID": "1407165356150477888"
+  },
+  {
+    "TEMPLATE_NAME": "pp-plan398",
+    "TEMPLATE_ID": "1407165424195878473"
+  },
+  {
+    "TEMPLATE_NAME": "pp-plan123",
+    "TEMPLATE_ID": "1407165424158737727"
+  },
+  {
+    "TEMPLATE_NAME": "CTOPUP_Recharge",
+    "TEMPLATE_ID": "1407165449707190635"
+  },
+  {
+    "TEMPLATE_NAME": "nlr-elections",
+    "TEMPLATE_ID": "1407165587622993535"
+  },
+  {
+    "TEMPLATE_NAME": "nlr-election",
+    "TEMPLATE_ID": "1407165588217227709"
+  },
+  {
+    "TEMPLATE_NAME": "BALLTPV",
+    "TEMPLATE_ID": "1407165657263224162"
+  },
+  {
+    "TEMPLATE_NAME": "GP1",
+    "TEMPLATE_ID": "1407165657255962899"
+  },
+  {
+    "TEMPLATE_NAME": "AU exams info",
+    "TEMPLATE_ID": "1407166073826612236"
+  },
+  {
+    "TEMPLATE_NAME": "AU exam",
+    "TEMPLATE_ID": "1407166073890960007"
+  },
+  {
+    "TEMPLATE_NAME": "Exams info",
+    "TEMPLATE_ID": "1407166073965097620"
+  },
+  {
+    "TEMPLATE_NAME": "Dermatologist conference",
+    "TEMPLATE_ID": "1407166098211685095"
+  },
+  {
+    "TEMPLATE_NAME": "Dermatologists new",
+    "TEMPLATE_ID": "1407166218264096775"
+  },
+  {
+    "TEMPLATE_NAME": "Dental association 170922",
+    "TEMPLATE_ID": "1407166332512623710"
+  },
+  {
+    "TEMPLATE_NAME": "Zero Balance customers",
+    "TEMPLATE_ID": "1407166374037347752"
+  },
+  {
+    "TEMPLATE_NAME": "Dermatologist conference24092022",
+    "TEMPLATE_ID": "1407166400661155288"
+  },
+  {
+    "TEMPLATE_NAME": "Dermatologist conference124092022",
+    "TEMPLATE_ID": "1407166401942762869"
+  },
+  {
+    "TEMPLATE_NAME": "Dermatologist conference 011022",
+    "TEMPLATE_ID": "1407166462201885430"
+  },
+  {
+    "TEMPLATE_NAME": "BAL LT with selfcare",
+    "TEMPLATE_ID": "1407166512718662959"
+  },
+  {
+    "TEMPLATE_NAME": "GP1 with selfcare",
+    "TEMPLATE_ID": "1407166512712842240"
+  },
+  {
+    "TEMPLATE_NAME": "Dermatology conference 201022",
+    "TEMPLATE_ID": "1407166624793045920"
+  },
+  {
+    "TEMPLATE_NAME": "AP BSNL LICE",
+    "TEMPLATE_ID": "1407167126618752430"
+  },
+  {
+    "TEMPLATE_NAME": "GP1 with 1198",
+    "TEMPLATE_ID": "1407167403140680262"
+  },
+  {
+    "TEMPLATE_NAME": "IPMS CO VJ",
+    "TEMPLATE_ID": "1407167446666275861"
+  },
+  {
+    "TEMPLATE_NAME": "IPMS CO revised",
+    "TEMPLATE_ID": "1407167462320584663"
+  },
+  {
+    "TEMPLATE_NAME": "BAL LT self_1198",
+    "TEMPLATE_ID": "1407167488298428010"
+  },
+  {
+    "TEMPLATE_NAME": "IPMS controlling officers",
+    "TEMPLATE_ID": "1407167489267750304"
+  },
+  {
+    "TEMPLATE_NAME": "BILL DUE WE DOT",
+    "TEMPLATE_ID": "1407167636031213568"
+  },
+  {
+    "TEMPLATE_NAME": "Marriage Invitation",
+    "TEMPLATE_ID": "1407167695960528826"
+  },
+  {
+    "TEMPLATE_NAME": "STV 187",
+    "TEMPLATE_ID": "1407167766171025468"
+  },
+  {
+    "TEMPLATE_NAME": "Amazon SMS2",
+    "TEMPLATE_ID": "1407167808119876863"
+  },
+  {
+    "TEMPLATE_NAME": "Amazon SMS1",
+    "TEMPLATE_ID": "1407167808113864557"
+  },
+  {
+    "TEMPLATE_NAME": "Data enable SMS",
+    "TEMPLATE_ID": "1407167913786846940"
+  },
+  {
+    "TEMPLATE_NAME": "kri-ftth",
+    "TEMPLATE_ID": "1407168016049794753"
+  },
+  {
+    "TEMPLATE_NAME": "hcm-ipms-q1",
+    "TEMPLATE_ID": "1407168024759021905"
+  },
+  {
+    "TEMPLATE_NAME": "IPMS message",
+    "TEMPLATE_ID": "1407168067482020298"
+  },
+  {
+    "TEMPLATE_NAME": "BAL GRT with selfcare",
+    "TEMPLATE_ID": "1407168188791206111"
+  },
+  {
+    "TEMPLATE_NAME": "Zero balance with self care",
+    "TEMPLATE_ID": "1407168188758394437"
+  },
+  {
+    "TEMPLATE_NAME": "IPMS Q4",
+    "TEMPLATE_ID": "1407168188683815695"
+  },
+  {
+    "TEMPLATE_NAME": "Lok Adalat VM",
+    "TEMPLATE_ID": "1407168318578325161"
+  },
+  {
+    "TEMPLATE_NAME": "Twitter BSNL Guntur",
+    "TEMPLATE_ID": "1407168361664113610"
+  },
+  {
+    "TEMPLATE_NAME": "HCM APAR",
+    "TEMPLATE_ID": "1407168430478395611"
+  },
+  {
+    "TEMPLATE_NAME": "BRBRAITT TRNG",
+    "TEMPLATE_ID": "1407168509621114134"
+  },
+  {
+    "TEMPLATE_NAME": "PV 105",
+    "TEMPLATE_ID": "1407168509667320390"
+  },
+  {
+    "TEMPLATE_NAME": "BRBRAITT- TRNG 2",
+    "TEMPLATE_ID": "1407168630940856894"
+  },
+  {
+    "TEMPLATE_NAME": "Guntur tariff promotion",
+    "TEMPLATE_ID": "1407168733057486077"
+  },
+  {
+    "TEMPLATE_NAME": "HCM APAR June",
+    "TEMPLATE_ID": "1407168742330838196"
+  },
+  {
+    "TEMPLATE_NAME": "NGN Alarm UP:",
+    "TEMPLATE_ID": "1407168759149375057"
+  },
+  {
+    "TEMPLATE_NAME": "NGN Alarm DOWN:",
+    "TEMPLATE_ID": "1407168759140208746"
+  },
+  {
+    "TEMPLATE_NAME": "External Alarm UP",
+    "TEMPLATE_ID": "1407168759122082433"
+  },
+  {
+    "TEMPLATE_NAME": "External Alarm DOWN:",
+    "TEMPLATE_ID": "1407168759112348476"
+  },
+  {
+    "TEMPLATE_NAME": "Outage Alarm UP",
+    "TEMPLATE_ID": "1407168759026731065"
+  },
+  {
+    "TEMPLATE_NAME": "Outage Alarm DOWN:",
+    "TEMPLATE_ID": "1407168758995293706"
+  },
+  {
+    "TEMPLATE_NAME": "App Status / OTP",
+    "TEMPLATE_ID": "1407168758963747068"
+  },
+  {
+    "TEMPLATE_NAME": "Outage Alarm UP1",
+    "TEMPLATE_ID": "1407168759103460607"
+  },
+  {
+    "TEMPLATE_NAME": "FTTH Help line SMS",
+    "TEMPLATE_ID": "1407168777239409325"
+  },
+  {
+    "TEMPLATE_NAME": "Digital marketing",
+    "TEMPLATE_ID": "1407168784700081279"
+  },
+  {
+    "TEMPLATE_NAME": "Digital marketing 1",
+    "TEMPLATE_ID": "1407168784813605730"
+  },
+  {
+    "TEMPLATE_NAME": "NGN Alarm UP",
+    "TEMPLATE_ID": "1407168786313336279"
+  },
+  {
+    "TEMPLATE_NAME": "NGN Alarm DOWN",
+    "TEMPLATE_ID": "1407168786353400093"
+  },
+  {
+    "TEMPLATE_NAME": "External Alarm UP1",
+    "TEMPLATE_ID": "1407168786360767124"
+  },
+  {
+    "TEMPLATE_NAME": "External Alarm DOWN",
+    "TEMPLATE_ID": "1407168786367502257"
+  },
+  {
+    "TEMPLATE_NAME": "Outage Alarm UP2",
+    "TEMPLATE_ID": "1407168786384067575"
+  },
+  {
+    "TEMPLATE_NAME": "Outage Alarm DOWN",
+    "TEMPLATE_ID": "1407168786393896683"
+  },
+  {
+    "TEMPLATE_NAME": "Missed Call Alert",
+    "TEMPLATE_ID": "1407168786409552438"
+  },
+  {
+    "TEMPLATE_NAME": "OTP",
+    "TEMPLATE_ID": "1407168786513889380"
+  },
+  {
+    "TEMPLATE_NAME": "CMTS OTP",
+    "TEMPLATE_ID": "1407168786612872145"
+  },
+  {
+    "TEMPLATE_NAME": "Q2 IPMS",
+    "TEMPLATE_ID": "1407168793015637470"
+  },
+  {
+    "TEMPLATE_NAME": "APAR last date",
+    "TEMPLATE_ID": "1407168871213803451"
+  },
+  {
+    "TEMPLATE_NAME": "4G Upgradation",
+    "TEMPLATE_ID": "1407168899131895982"
+  },
+  {
+    "TEMPLATE_NAME": "Q2 IPMS achvmt",
+    "TEMPLATE_ID": "1407168914023051862"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM upgradation (English)",
+    "TEMPLATE_ID": "1407168915781181317"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM upgradation (Telugu)",
+    "TEMPLATE_ID": "1407168915796817266"
+  },
+  {
+    "TEMPLATE_NAME": "NIL TXN CTOP UP",
+    "TEMPLATE_ID": "1407168940373120022"
+  },
+  {
+    "TEMPLATE_NAME": "CAF SMS (English)",
+    "TEMPLATE_ID": "1407168975204286469"
+  },
+  {
+    "TEMPLATE_NAME": "CAF SMS (Telugu)",
+    "TEMPLATE_ID": "1407168975802259304"
+  },
+  {
+    "TEMPLATE_NAME": "Retailer commission SMS",
+    "TEMPLATE_ID": "1407169002097370512"
+  },
+  {
+    "TEMPLATE_NAME": "Modified reverification SMS",
+    "TEMPLATE_ID": "1407169019387616115"
+  },
+  {
+    "TEMPLATE_NAME": "Palakollu BSNL land sale",
+    "TEMPLATE_ID": "1407169027358108561"
+  },
+  {
+    "TEMPLATE_NAME": "Tuni BSNL land sale",
+    "TEMPLATE_ID": "1407169027365153807"
+  },
+  {
+    "TEMPLATE_NAME": "Retailer comm SMS modified",
+    "TEMPLATE_ID": "1407169035035238347"
+  },
+  {
+    "TEMPLATE_NAME": "Modified Comsn SMS",
+    "TEMPLATE_ID": "1407169035047997834"
+  },
+  {
+    "TEMPLATE_NAME": "updated 4G upgradation (English)",
+    "TEMPLATE_ID": "1407169113118955687"
+  },
+  {
+    "TEMPLATE_NAME": "updated 4G upgradation (Telugu)",
+    "TEMPLATE_ID": "1407169113125299476"
+  },
+  {
+    "TEMPLATE_NAME": "Updated reverification (English)",
+    "TEMPLATE_ID": "1407169113142387067"
+  },
+  {
+    "TEMPLATE_NAME": "Updated reverification (Telugu)",
+    "TEMPLATE_ID": "1407169113152173056"
+  },
+  {
+    "TEMPLATE_NAME": "Tuni BSNL land sale adv",
+    "TEMPLATE_ID": "1407169139512797907"
+  },
+  {
+    "TEMPLATE_NAME": "LAND FOR SALE IN PALAKOLLU",
+    "TEMPLATE_ID": "1407169139808226109"
+  },
+  {
+    "TEMPLATE_NAME": "EMAIL-UPDATION",
+    "TEMPLATE_ID": "1407169217732022237"
+  },
+  {
+    "TEMPLATE_NAME": "updated 4G upgradation1 (Telugu)",
+    "TEMPLATE_ID": "1407169244656424521"
+  },
+  {
+    "TEMPLATE_NAME": "updated 4G upgradation1 (English)",
+    "TEMPLATE_ID": "1407169244651171578"
+  },
+  {
+    "TEMPLATE_NAME": "Updated reverification1(Telugu)",
+    "TEMPLATE_ID": "1407169244642248555"
+  },
+  {
+    "TEMPLATE_NAME": "updated Reverification1(English)",
+    "TEMPLATE_ID": "1407169244632718004"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG SER (english)",
+    "TEMPLATE_ID": "1407169296209306201"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG SER (Telugu)",
+    "TEMPLATE_ID": "1407169296204897494"
+  },
+  {
+    "TEMPLATE_NAME": "Know_Your_SIM",
+    "TEMPLATE_ID": "1407169321261842294"
+  },
+  {
+    "TEMPLATE_NAME": "updated Reverification1(English)_New",
+    "TEMPLATE_ID": "1407169346884348918"
+  },
+  {
+    "TEMPLATE_NAME": "Updated reverification1(Telugu)_New",
+    "TEMPLATE_ID": "1407169346880946763"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG SER (Telugu)_New",
+    "TEMPLATE_ID": "1407169346877517211"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG SERV (English)_New",
+    "TEMPLATE_ID": "1407169346919338918"
+  },
+  {
+    "TEMPLATE_NAME": "LOK ADALAT",
+    "TEMPLATE_ID": "1407169380714512370"
+  },
+  {
+    "TEMPLATE_NAME": "Test_MSG",
+    "TEMPLATE_ID": "1407169406357063206"
+  },
+  {
+    "TEMPLATE_NAME": "Updated reverification1(Telugu)_ 30Sep",
+    "TEMPLATE_ID": "1407169415855660577"
+  },
+  {
+    "TEMPLATE_NAME": "updated Reverification1(English)_ 30Sep",
+    "TEMPLATE_ID": "1407169415852074962"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG SERV(Telugu)_ 30Sep",
+    "TEMPLATE_ID": "1407169415848641888"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG SERV(English)_30Sep",
+    "TEMPLATE_ID": "1407169415844163915"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification(Telugu)_ 20Sep",
+    "TEMPLATE_ID": "1407169441292626661"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification(English)_ 20Sep",
+    "TEMPLATE_ID": "1407169441270042050"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG SERV(Telugu)_20Sep",
+    "TEMPLATE_ID": "1407169441252650238"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG SERV(English)_20Sep",
+    "TEMPLATE_ID": "1407169441228575066"
+  },
+  {
+    "TEMPLATE_NAME": "Rejected_reverification",
+    "TEMPLATE_ID": "1407169564026113491"
+  },
+  {
+    "TEMPLATE_NAME": "Updated_Reverification_Rejected",
+    "TEMPLATE_ID": "1407169564112016124"
+  },
+  {
+    "TEMPLATE_NAME": "Updated reverification1(Telugu)_ 10thOct",
+    "TEMPLATE_ID": "1407169607623438629"
+  },
+  {
+    "TEMPLATE_NAME": "updated Reverification1(English)_ 10thOct",
+    "TEMPLATE_ID": "1407169607615892598"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG SERV(Telugu)_ 10thOct",
+    "TEMPLATE_ID": "1407169607606372402"
+  },
+  {
+    "TEMPLATE_NAME": "1) 4G SIM UPG SERV(English)_10thOct",
+    "TEMPLATE_ID": "1407169607598640193"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification short code SMS to channel partners",
+    "TEMPLATE_ID": "1407169648099998019"
+  },
+  {
+    "TEMPLATE_NAME": "Q3 IPMS target",
+    "TEMPLATE_ID": "1407169650010274421"
+  },
+  {
+    "TEMPLATE_NAME": "CAF Sancharsathi1",
+    "TEMPLATE_ID": "1407169691838104542"
+  },
+  {
+    "TEMPLATE_NAME": "CAF sancharsathi2",
+    "TEMPLATE_ID": "1407169691931223562"
+  },
+  {
+    "TEMPLATE_NAME": "CAF sancharsathi3",
+    "TEMPLATE_ID": "1407169691937629890"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 20th Oct23 (Telugu)",
+    "TEMPLATE_ID": "1407169700664191724"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 20th Oct23 (Eng)",
+    "TEMPLATE_ID": "1407169700619177106"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 20th Oct23",
+    "TEMPLATE_ID": "1407169700596136044"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 20the Oct23(Telugu)",
+    "TEMPLATE_ID": "1407169700606151462"
+  },
+  {
+    "TEMPLATE_NAME": "IPMS Q2 executives",
+    "TEMPLATE_ID": "1407169719077518791"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 31st Oct23 (Telugu)",
+    "TEMPLATE_ID": "1407169779058321838"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 31st Oct23 (Eng)",
+    "TEMPLATE_ID": "1407169779075087245"
+  },
+  {
+    "TEMPLATE_NAME": "reverification 31st Oct (TEL)",
+    "TEMPLATE_ID": "1407169779098451423"
+  },
+  {
+    "TEMPLATE_NAME": "reverification 31st Oct (Eng)",
+    "TEMPLATE_ID": "1407169779105326013"
+  },
+  {
+    "TEMPLATE_NAME": "Q2 IPMS achmt 25.10.2023",
+    "TEMPLATE_ID": "1407169788099538014"
+  },
+  {
+    "TEMPLATE_NAME": "Self care app",
+    "TEMPLATE_ID": "1407169849120656798"
+  },
+  {
+    "TEMPLATE_NAME": "Tuni 311023",
+    "TEMPLATE_ID": "1407169874682307239"
+  },
+  {
+    "TEMPLATE_NAME": "Palakollu 311023",
+    "TEMPLATE_ID": "1407169874671684638"
+  },
+  {
+    "TEMPLATE_NAME": "Kondapalli",
+    "TEMPLATE_ID": "1407169874655880863"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 10th Nov23 (Telugu)",
+    "TEMPLATE_ID": "1407169873714275714"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 10th Nov (Telugu)",
+    "TEMPLATE_ID": "1407169873608922166"
+  },
+  {
+    "TEMPLATE_NAME": "reverification 10th Nov23",
+    "TEMPLATE_ID": "1407169873599992831"
+  },
+  {
+    "TEMPLATE_NAME": "NIL TXN CTOP UP campaign",
+    "TEMPLATE_ID": "1407169874986778661"
+  },
+  {
+    "TEMPLATE_NAME": "NIL TXN CTOP UP Nov 23",
+    "TEMPLATE_ID": "1407169881910335958"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 10th Nov(Eng)",
+    "TEMPLATE_ID": "1407169881735441668"
+  },
+  {
+    "TEMPLATE_NAME": "CAF Sancharsathi3 Nov23",
+    "TEMPLATE_ID": "1407169934957602930"
+  },
+  {
+    "TEMPLATE_NAME": "CAF Sancharsathi2 Nov23",
+    "TEMPLATE_ID": "1407169934948288154"
+  },
+  {
+    "TEMPLATE_NAME": "CAF Sancharsathi1 Nov23",
+    "TEMPLATE_ID": "1407169934940053207"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 20th Nov (TEL)",
+    "TEMPLATE_ID": "1407169985846478735"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 20th Nov (Eng)",
+    "TEMPLATE_ID": "1407169985856621201"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 20th Nov (TEL)",
+    "TEMPLATE_ID": "1407169985862477006"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 20th Nov (Eng)",
+    "TEMPLATE_ID": "1407169985867786589"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 30th Nov23 (Telugu)",
+    "TEMPLATE_ID": "1407170029204629348"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 30th Nov23(Eng)",
+    "TEMPLATE_ID": "1407170029230042617"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 30th Nov (Telugu)",
+    "TEMPLATE_ID": "1407170029245521082"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 30th Nov (Eng)",
+    "TEMPLATE_ID": "1407170029257829442"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 1st Dec 23 (Telugu)",
+    "TEMPLATE_ID": "1407170132032902652"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 1st Dec (English)",
+    "TEMPLATE_ID": "1407170131931518799"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 1st Dec 23 (English)",
+    "TEMPLATE_ID": "1407170132045809114"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 1st Dec (Telugu)",
+    "TEMPLATE_ID": "1407170131918045875"
+  },
+  {
+    "TEMPLATE_NAME": "APSACS SMS",
+    "TEMPLATE_ID": "1407170132213688549"
+  },
+  {
+    "TEMPLATE_NAME": "VM LOKADALAT",
+    "TEMPLATE_ID": "1407170168434889874"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 20th Dec (Telugu)",
+    "TEMPLATE_ID": "1407170227657139092"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 20th Dec (Telugu)",
+    "TEMPLATE_ID": "1407170227627782505"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 20th Dec (English)",
+    "TEMPLATE_ID": "1407170227647374573"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 20th Dec (English)",
+    "TEMPLATE_ID": "1407170227609138835"
+  },
+  {
+    "TEMPLATE_NAME": "CAF Sanchar sathi SMS Dec2023",
+    "TEMPLATE_ID": "1407170228071265733"
+  },
+  {
+    "TEMPLATE_NAME": "CAF Sanchar sathi SMS2 Dec2023",
+    "TEMPLATE_ID": "1407170228796630464"
+  },
+  {
+    "TEMPLATE_NAME": "CAF SMS2 Dec23",
+    "TEMPLATE_ID": "1407170245660877740"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 31st Dec 23 (Telugu)",
+    "TEMPLATE_ID": "1407170289199986085"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 31st Dec (English)",
+    "TEMPLATE_ID": "1407170289190887595"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 31st Dec (Telugu)",
+    "TEMPLATE_ID": "1407170289177219302"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 31st Dec (English)",
+    "TEMPLATE_ID": "1407170289159955605"
+  },
+  {
+    "TEMPLATE_NAME": "Know Your SIM in 4G Case Telugu",
+    "TEMPLATE_ID": "1407170313824061565"
+  },
+  {
+    "TEMPLATE_NAME": "Know Your SIM in 4G Case English",
+    "TEMPLATE_ID": "1407170313829327064"
+  },
+  {
+    "TEMPLATE_NAME": "Know Your SIM in non 4G Case English",
+    "TEMPLATE_ID": "1407170313835420239"
+  },
+  {
+    "TEMPLATE_NAME": "Know Your SIM in non 4G Case Telugu",
+    "TEMPLATE_ID": "1407170313838928841"
+  },
+  {
+    "TEMPLATE_NAME": "KYR: To Customer (1 retailer) in Telugu",
+    "TEMPLATE_ID": "1407170313727872868"
+  },
+  {
+    "TEMPLATE_NAME": "KYR: To Customer (1 retailer) in English",
+    "TEMPLATE_ID": "1407170313733095750"
+  },
+  {
+    "TEMPLATE_NAME": "KYR: To Customer (2 retailers) in Telugu",
+    "TEMPLATE_ID": "1407170313753958880"
+  },
+  {
+    "TEMPLATE_NAME": "KYR: To Customer (2 retailers) in English",
+    "TEMPLATE_ID": "1407170313762249990"
+  },
+  {
+    "TEMPLATE_NAME": "KYR: To Retailer in Telugu",
+    "TEMPLATE_ID": "1407170313770135356"
+  },
+  {
+    "TEMPLATE_NAME": "Know Your Name to Customer",
+    "TEMPLATE_ID": "1407170313790379369"
+  },
+  {
+    "TEMPLATE_NAME": "KYR: To Retailer in English",
+    "TEMPLATE_ID": "1407170313779605697"
+  },
+  {
+    "TEMPLATE_NAME": "Know Your Name to Retailer",
+    "TEMPLATE_ID": "1407170315864340374"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 10th Jan 24 (Telugu)",
+    "TEMPLATE_ID": "1407170392613652539"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 10th Jan 24English)",
+    "TEMPLATE_ID": "1407170392605307892"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 10th Jan24 (Telugu)",
+    "TEMPLATE_ID": "1407170392594296465"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 10th Jan24 (English)",
+    "TEMPLATE_ID": "1407170392583957622"
+  },
+  {
+    "TEMPLATE_NAME": "CAF Sancharsathi2 Jan 24",
+    "TEMPLATE_ID": "1407170409417307519"
+  },
+  {
+    "TEMPLATE_NAME": "CAF Sancharsathi1 SMS Jan 24",
+    "TEMPLATE_ID": "1407170409407285134"
+  },
+  {
+    "TEMPLATE_NAME": "Q4 IPMS",
+    "TEMPLATE_ID": "1407170435251331875"
+  },
+  {
+    "TEMPLATE_NAME": "IPMS Q3 FY23-24",
+    "TEMPLATE_ID": "1407170495462298223"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 20th Jan24 (English)",
+    "TEMPLATE_ID": "1407170497048681776"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 20th Jan24 (Telugu)",
+    "TEMPLATE_ID": "1407170497056371173"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 20th Jan 24English)",
+    "TEMPLATE_ID": "1407170497068198775"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 20th Jan 24 (Telugu)",
+    "TEMPLATE_ID": "1407170497074554391"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 31 Jan 24 (Telugu)",
+    "TEMPLATE_ID": "1407170573970415396"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 31Jan 24English)",
+    "TEMPLATE_ID": "1407170573962773843"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 31Jan24 (English)",
+    "TEMPLATE_ID": "1407170573957212907"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 31Jan24 (Telugu)",
+    "TEMPLATE_ID": "1407170573951033975"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 10th Feb 24 (Telugu)",
+    "TEMPLATE_ID": "1407170676799788813"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 10th Feb 24English)",
+    "TEMPLATE_ID": "1407170676784827650"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 10th Feb24 (Telugu)",
+    "TEMPLATE_ID": "1407170676772737491"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 10th Feb24 (English)",
+    "TEMPLATE_ID": "1407170676746109047"
+  },
+  {
+    "TEMPLATE_NAME": "STV 288 Promotion",
+    "TEMPLATE_ID": "1407170695684415852"
+  },
+  {
+    "TEMPLATE_NAME": "Fiber conversion (English)",
+    "TEMPLATE_ID": "1407170729899559152"
+  },
+  {
+    "TEMPLATE_NAME": "Conversion to Fiber",
+    "TEMPLATE_ID": "1407170729892831186"
+  },
+  {
+    "TEMPLATE_NAME": "CFA defaulter variable1",
+    "TEMPLATE_ID": "1407170738771816302"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 20th Feb24 (English)",
+    "TEMPLATE_ID": "1407170772198658376"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 20th Feb24 (Telugu)",
+    "TEMPLATE_ID": "1407170772193127065"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 20th Feb24 (English)",
+    "TEMPLATE_ID": "1407170772184456380"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 20Feb 24 (Telugu)",
+    "TEMPLATE_ID": "1407170772271382907"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 20feb24 (English)",
+    "TEMPLATE_ID": "1407170772252676810"
+  },
+  {
+    "TEMPLATE_NAME": "CFA defaulter variable3",
+    "TEMPLATE_ID": "1407170781561510525"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 29th Feb24 (Telugu)",
+    "TEMPLATE_ID": "1407170867181404531"
+  },
+  {
+    "TEMPLATE_NAME": "Reverification 29th Feb24 (English)",
+    "TEMPLATE_ID": "1407170867175356853"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 29th Feb24 (English)",
+    "TEMPLATE_ID": "1407170867155757594"
+  },
+  {
+    "TEMPLATE_NAME": "4G SIM UPG 29Feb 24 (Telugu)",
+    "TEMPLATE_ID": "1407170867163771810"
+  },
+  {
+    "TEMPLATE_NAME": "Modified CFA defaulter SMS",
+    "TEMPLATE_ID": "1407170893091910483"
+  },
+  {
+    "TEMPLATE_NAME": "dfs",
+    "TEMPLATE_ID": "1407170894538433130"
+  },
+  {
+    "TEMPLATE_NAME": "Pending Bills SMS",
+    "TEMPLATE_ID": "1407170901460502652"
+  }
+]
