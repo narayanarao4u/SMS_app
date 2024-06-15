@@ -8,3 +8,19 @@
   max-height: 80vh;
   overflow: auto;
 }
+
+.banner {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.banner > img {
+  height: 60px;
+}
+
+.banner > h1 {
+  color: hsl(252, 89%, 66%);
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px grey;
+}

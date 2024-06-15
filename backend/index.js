@@ -6,7 +6,7 @@ const cors = require("cors");
 
 const moment = require('moment');
 
-/* 
+
 const mysql = require('mysql2/promise');
 const pool = mysql.createPool({
   host: 'localhost',
@@ -14,7 +14,7 @@ const pool = mysql.createPool({
   database: 'dlr',
   password: 'kannel_user',
 });
- */
+ 
 
 
 const allowCrossDomain = function (req, res, next) {
@@ -81,7 +81,7 @@ app.get('/GetStatus', async (req, res) => {
     console.log("type :", type);
     console.log("Report :",req.query.rep);
 
-   /*  if(type==1){
+    if(type==1){
 	    const rep = req.query.rep;
 	    const arr = rep.split(" ");
 	    const msgId = arr[0].split(':')[1];
@@ -103,7 +103,7 @@ app.get('/GetStatus', async (req, res) => {
 	    }
     }else{
         console.log("Finaltype :",type);
-    } */
+    } 
 
      console.log("--End of Get--");
      res.sendStatus(200);
