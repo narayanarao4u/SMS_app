@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 
 import { useFetchAPI } from "../customHooks/customHooks";
+import Papa from "papaparse";
 
 import axios from "axios";
 
@@ -15,9 +16,7 @@ function SMSTemplates() {
   const [searchText, setSearchText] = useState("");
 
   // const [URL, setURL] = useState(`${baseurl}/api/templateIds`);
-  const { data, isError, isLoading } = useFetchAPI(
-    `${baseurl}/api/templateIds`
-  );
+  const { data, isError, isLoading } = useFetchAPI(`${baseurl}/api/templateIds`);
 
   const [dispData, setDispData] = useState([]);
 
@@ -25,7 +24,8 @@ function SMSTemplates() {
     if (data) {
       setDispData(
         data.data.filter((item) =>
-          item.TEMPLATE_NAME.toLowerCase().includes(searchText.toLowerCase())
+          item.TEMPLATE_NAME.toLowerCase().includes(searchText.toLowerCase()) ||
+          item.TEMPLATE_ID.toLowerCase().includes(searchText.toLowerCase())
         )
       );
     }
@@ -41,6 +41,8 @@ function SMSTemplates() {
           placeholder="Search"
           className="form-control"
         />
+        <hr />
+        {/* <pre>{JSON.stringify(dispData, null, 2)}</pre> */}
       </div>
       {isLoading
         ? "Loading..."
@@ -74,10 +76,10 @@ function DisplayTemplates({ dispData }) {
 
   return (
     <div className="templatesDiv">
-      {dispData.map((item) => {
+      {dispData.map((item, index) => {
         return (
           <div
-            key={item.TEMPLATE_ID}
+            key={index}
             className={
               selectedTemplate?.TEMPLATE_ID === item.TEMPLATE_ID
                 ? `m-1 border-bottom border-info p-1 bg-info text-white`
@@ -152,7 +154,8 @@ function GetSMSTemplates() {
 
 function ContentTemplate() {
   const { contentTemplate } = useContext(DataContext);
-  
+  const [error, setError] = useState("");
+
   const data = contentTemplate && contentTemplate.Content_Template_Ids[0];
   const initsmsData = {
     to: "9490044441",
@@ -166,44 +169,26 @@ function ContentTemplate() {
 
   const [smsresponse, setSmsResponse] = useState(null);
 
-  // const [POST_DATA, setPOST_DATA] = useState(null);
-  // const [sendmsg, setSendMsg] = useState(false);
-  // const { data: smsresponse, isError, isLoading } = useFetchAPI(baseurl, POST_DATA, sendmsg);
+  const [parsedData, setParsedData] = useState([]);
+  //State to store table Column name
+  const [tableRows, setTableRows] = useState([]);
+  //State to store the values
+  const [values, setValues] = useState([]);
+
 
   function handlesendsms() {
-    // setPOST_DATA({
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSON.stringify({
-    //     to: smsdata.to,
-    //     text: smsdata.text,
-    //     Template_ID: smsdata.Template_ID
-    //   }),
-    // })
-
-    // setSendMsg(true);
-
     axios.post(baseurl, smsdata).then((res) => {
-
       setSmsResponse(res.data);
     })
-
-
   }
 
-  // useEffect(() => {
-  //   console.log('fired', sendmsg);
-  //   if (sendmsg) {
-  //     setSendMsg(false);
-  //   }
+  function handlebulksms() {
+    axios.post(baseurl + "/bulk", smsdata).then((res) => {
+      setSmsResponse(res.data);
+    })
+    console.log(smsdata);
+  }
 
-  //   return () => {
-
-  //   }
-
-  // }, [sendmsg])
 
   useEffect(() => {
     if (contentTemplate) {
@@ -218,30 +203,47 @@ function ContentTemplate() {
     }
   }, [contentTemplate])
 
+  function handleInputFile(e) {
+    if (e.target.files.length > 0) {
+      let file = e.target.files[0];
+      const fileExtension = file?.type.split("/")[1];
 
+      if (fileExtension !== "csv") {
+        console.log("fileExtension :", fileExtension);
+        setError("Please input a csv file");
+        return;
+      } else {
+        Papa.parse(event.target.files[0], {
+          header: true,
+          skipEmptyLines: true,
+          complete: function (results) {
+            let validNo = results.data.filter((data) => data["Phone"].length === 10);
+            setError('No of valid numbers : ' + validNo.length);
+            setSmsData({ ...smsdata, to: validNo })
+          },
+        });
+      }
+
+    }
+  }
 
   return (
     <>
-      <pre>
-        {/* {JSON.stringify(contentTemplate, null, 2)} */}
-        <br />
 
-        smsresponse :  {JSON.stringify(smsresponse, null, 2)}
-
-      </pre>
       {data && (
         <>
-          <div className="row">
-            <div className="col-6">
+          <div className="row mb-3 bg-info">
+            <div className="col-3">
               <b>Header : </b> {data?.Header}
             </div>
-            <div className="col-6">
+            <div className="col-3">
               <b>MSG Type : </b> {data?.Message_Type}
             </div>
 
           </div>
+
           <div className="row">
-            <div className="col-8">
+            <div className="col-4">
               <input
                 type="text"
                 placeholder="Enter Phone No"
@@ -249,9 +251,24 @@ function ContentTemplate() {
                 value={smsdata.to}
                 onChange={(e) => setSmsData({ ...smsdata, to: e.target.value })}
               />
+
             </div>
-            <div className="col-4 text-center ">
+            <div className="col-2 text-center ">
               <button className="btn btn-primary btn-sm" onClick={handlesendsms} >Send</button>
+            </div>
+            <div className="col-4">
+              <input
+                type="file"
+                name="file"
+                accept=".csv"
+                placeholder="Enter Phone No"
+                className="form-control"
+                onChange={handleInputFile}
+              />
+              <p className="text-danger">{error}</p>
+            </div>
+            <div className="col-2 text-center ">
+              <button className="btn btn-primary btn-sm" onClick={handlebulksms} >Send</button>
             </div>
           </div>
           <div>
@@ -266,6 +283,14 @@ function ContentTemplate() {
             >
 
             </textarea>
+
+            <pre>
+              {/* {JSON.stringify(contentTemplate, null, 2)} */}
+              <br />
+
+              smsresponse :  {JSON.stringify(smsresponse, null, 2)}
+
+            </pre>
           </div>
         </>
       )}

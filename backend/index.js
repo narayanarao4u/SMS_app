@@ -42,7 +42,9 @@ app.use(function(req, res, next){
   const currentTimestamp = moment();
   bodydata.timestamp = currentTimestamp.format();
   console.log("IP Address :", req.ip);
+ 
   console.log("url :", req.originalUrl);
+  
   console.log(bodydata);
   console.log('*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*');
 

@@ -10,17 +10,28 @@
 }
 
 .banner {
+  padding-top: 10px;
   display: flex;
   gap: 5px;
   justify-content: center;
+
+   img {
+    height: 60px;
+   }
+
+
+   h1 {
+    color: hsl(252, 89%, 66%);
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px grey;
+   }
+
+   .logosms {
+    margin: -10px 0 0 5px;
+    // border: 1px solid gray;
+    transform: rotate(-20deg);
+   }
+   
 }
 
-.banner > img {
-  height: 60px;
-}
 
-.banner > h1 {
-  color: hsl(252, 89%, 66%);
-  font-weight: bolder;
-  text-shadow: 2px 2px 4px grey;
-}
