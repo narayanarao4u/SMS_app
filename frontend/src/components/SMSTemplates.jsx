@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 
 import { useFetchAPI } from "../customHooks/customHooks";
+import styles from "./SMSTemplates.module.scss";
 import Papa from "papaparse";
 
 import axios from "axios";
@@ -129,7 +130,7 @@ function GetSMSTemplates() {
   }, [data]);
 
   return (
-    <div>
+    <div >
       {selectedTemplate && (
         <p>
           Template ID : {selectedTemplate.TEMPLATE_ID} <br /> Template Name :{" "}
@@ -169,11 +170,8 @@ function ContentTemplate() {
 
   const [smsresponse, setSmsResponse] = useState(null);
 
-  const [parsedData, setParsedData] = useState([]);
-  //State to store table Column name
-  const [tableRows, setTableRows] = useState([]);
-  //State to store the values
-  const [values, setValues] = useState([]);
+  const [smstype, setSmsType] = useState("single");
+
 
 
   function handlesendsms() {
@@ -231,46 +229,64 @@ function ContentTemplate() {
     <>
 
       {data && (
-        <>
-          <div className="row mb-3 bg-info">
-            <div className="col-3">
-              <b>Header : </b> {data?.Header}
-            </div>
-            <div className="col-3">
-              <b>MSG Type : </b> {data?.Message_Type}
-            </div>
+        <div className={styles.ContentTemplate}>
+          <div className={styles.header}>
+            <section className={styles.controls}>
+              <div><b>Header : </b> {data?.Header}</div>
+              <div><b>MSG Type : </b> {data?.Message_Type}</div>
+            </section>
 
+            <section className={styles.controls}>
+              <label htmlFor="">
+                <input type="radio" name="smstype" value="single" checked={smstype === "single"}
+                  onChange={(e) => setSmsType(e.target.value)} />
+                <span> Single SMS  </span>
+              </label>
+
+              <label htmlFor="">
+                <input type="radio" name="smstype" value="bulk" checked={smstype === "bulk"}
+                  onChange={(e) => setSmsType(e.target.value)} />
+                <span> Bulk SMS  </span>
+              </label>
+            </section>
           </div>
+          {
+            smstype === "single" ? (
+              <div className={styles.controls} >
+                <input
+                  type="text"
+                  placeholder="Enter Phone No"
+                  className="form-control"
+                  value={smsdata.to}
+                  onChange={(e) => setSmsData({ ...smsdata, to: e.target.value })}
+                />
+                <button className="btn btn-primary btn-sm" onClick={handlesendsms} >Send</button>
+              </div>
+            ) : (
+              <>
+              <div className={styles.controls}>
+              
+                <input
+                  type="file"
+                  name="file"
+                  accept=".csv"
+                  placeholder="Enter Phone No"
+                  className="form-control"
+                  onChange={handleInputFile}
+                />
+               
+             
+                
+                <button className="btn btn-primary btn-sm" onClick={handlebulksms} >Send</button>
+              </div>
+               <p>{error}</p>
+               </>
+            )
 
-          <div className="row">
-            <div className="col-4">
-              <input
-                type="text"
-                placeholder="Enter Phone No"
-                className="form-control"
-                value={smsdata.to}
-                onChange={(e) => setSmsData({ ...smsdata, to: e.target.value })}
-              />
+          }
 
-            </div>
-            <div className="col-2 text-center ">
-              <button className="btn btn-primary btn-sm" onClick={handlesendsms} >Send</button>
-            </div>
-            <div className="col-4">
-              <input
-                type="file"
-                name="file"
-                accept=".csv"
-                placeholder="Enter Phone No"
-                className="form-control"
-                onChange={handleInputFile}
-              />
-              <p className="text-danger">{error}</p>
-            </div>
-            <div className="col-2 text-center ">
-              <button className="btn btn-primary btn-sm" onClick={handlebulksms} >Send</button>
-            </div>
-          </div>
+
+
           <div>
             <textarea
               name=""
@@ -292,7 +308,7 @@ function ContentTemplate() {
 
             </pre>
           </div>
-        </>
+        </div>
       )}
     </>
   );

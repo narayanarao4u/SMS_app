@@ -1,0 +1,29 @@
+.ContentTemplate {
+    padding: 5px 10px;
+    background-color: lightgoldenrodyellow;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+
+        section:first-child {
+            background-color: gold;
+        }
+        section:nth-child(2) {
+            background-color: yellowgreen;
+        }
+    }
+    .controls {
+        display: flex;
+        justify-content: center;
+        
+        gap: 10px;
+
+        width: 90%;
+        box-shadow: 2px 2px 4px grey;
+        border-radius: 5px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+}
+
